@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "Name":"Sushant",
+        "Age":19,
+        "class-sec" : "CS-H"
+    },
+    {
+        "id":2,
+        "Name":"Sparsh",
+        "Age":20,
+        "class-sec" : "CS-H"
+    },
+    {
+        "id":3,
+        "Name":"Jain saab",
+        "Age":20,
+        "class-sec" : "CS-H"
+    },
+    {
+        "id":4,
+        "Name":"pathak",
+        "Age":21,
+        "class-sec" : "CS-H"
+    }
+]
