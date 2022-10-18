@@ -16,6 +16,7 @@ const replaceTemplate = (temp,product)=>{
 }
 
 const port = 8000;
+const serverip='127.0.0.1';
 const server = http.createServer((req,res)=>{
     const pathName = req.url;
     // console.log(req.url);
@@ -33,6 +34,7 @@ const server = http.createServer((req,res)=>{
     }
     
 })
-server.listen(port  ,'127.0.0.1', (err)=>{
-    console.log(`listening to port ${port}`);
+server.listen(port  ,serverip, (err)=>{
+    console.log(`listening to server : ${serverip}
+ port: ${port}  `);
    });
