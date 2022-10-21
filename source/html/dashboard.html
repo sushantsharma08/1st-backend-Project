@@ -1,32 +1,65 @@
-            <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>dashboard</title>
-            </head>
-            <body>
-                <!-- <Section class="main" style="min-height: 100vh;width: 100%; display: flex; justify-content: center;">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <style>
+        .label {
+            letter-spacing: 0.2rem;
+        }
+        .data{
+            font-size: x-large;
+        }
+        .container{
+            display: inline-block;
+            position: relative;
+            height: 20px;
+            margin-inline: 25px;
+            margin-top: 20px;
+        }
+        .label{
+            position: absolute;
+            top: -25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <Section class="main" style="min-height: 100vh;width: 100%; display: flex; justify-content: center;">
                     <div> -->
-                        <div class="content" style="margin: 10px
+    <div class="content" style="margin: 10px
                         ;padding:12px;
                         border:2px solid rgb(128, 59, 59);
                         display: block;
                         background-color: rgb(145, 204, 85);">
-                            <span class="label">Id :</span> 
-                            <span class="data">{%id%}</span>
-                            <br>
-                            <span class="label">Name</span>
-                            <span class="data">{%Name%}</span>
-                            <br>
-                            <span class="label">Age</span>
-                            <span class="data">{%Age%}</span>
-                            <br>
-                            <span class="label">Class/sec</span>
-                            <span class="data">{%Class%}</span>
-                        </div>
-                    <!-- </div>
+
+        <div class="container">
+            <span class="label">Id :</span>
+            <span class="data">{%id%}</span>
+        </div>
+        <div class="container">
+            <span class="label">Name</span>
+            <span class="data">{%Name%}</span>
+        </div>
+        <div class="container">
+            <span class="label">Age</span>
+            <span class="data">{%Age%}</span>
+        </div>
+        <div class="container">
+            <span class="label">Class/sec</span>
+            <span class="data">{%Class%}</span>
+        </div>
+        <div class="container">
+            <span class="tag"><a href="127.0.0.1:8000/{%Name%}">DETAILS></a></span>
+        </div>
+
+
+    </div>
+    <!-- </div>
                 </Section> -->
-            </body>
-            </html>
+</body>
+
+</html>
