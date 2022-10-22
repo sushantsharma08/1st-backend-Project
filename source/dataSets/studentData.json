@@ -1,26 +1,55 @@
 [
     {
-        "id":1,
+        "id":0,
+        "enrollment":"EN20CS301457",
         "Name":"Sushant",
         "Age":19,
-        "class" : "CS-H"
+        "class" : "CS-H",
+        "location":"Manpur, dist:-maihar, Satna",
+        "skills": " WEB-DEV: HTML | CSS | JS | ANGULAR<br>SOFTWARE-DEV: C | C++ | JAVA<br>DATABASE: SQL",
+        "image":"<img alt='...' src='https://demos.creative-tim.com/notus-js/assets/img/team-2-800x800.jpg' class='shadow-xl rounded-full h-auto align-middle border-2 absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px'>",
+        "profession":"Student - Medicaps University, Indore",
+        "portfolio":true,
+        "portfoliolink":"https://sushantsharmadev.com/",
+        "description":"I am a Computer Science Engineering Undergrad at  Medicaps University,Indore. A tech enthusiast and a fitness geek, I like to play and learn in my free time.I am fueled with the passion to learn and understand things, considering myself a 'Forever Student'I try to learn and grab whatever I can. Also I feel blessed to have such good friends and family who keep pushing me to aquire more and more skills and check upon my achivements over a period of time. My hunger to learn and perform has contributed to most of my success. Looking for working environment where performance is rewarded with more responsibilities and knowlege to grow along with."
+    },
+    {
+        "id":1,
+        "enrollment":"EN20CS301451",
+        "Name":"Sparsh",
+        "Age":20,
+        "class" : "CS-H",
+        "location":"Mhow market,Indore",
+        "skills":" WEB-DEV: HTML | CSS<br>SOFTWARE-DEV: C | C++ | JAVA | JDBC | SERVLET | JSP<br>DATABASE: SQL",
+        "profession":"Student - Medicaps University, Indore",
+        "portfolio":true,
+        "portfoliolink":"https://sparshgarg1.github.io/sparsh.github.io/?#about",
+        "description":"Currently Persuing B.Tech in Computer Science and Engineering from Medi-Caps University. A tech Enthusiast Passionate about web devlopment and designing, Focused on crafting great web experiences with Backend Language as JAVA. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2021."
     },
     {
         "id":2,
-        "Name":"Sparsh",
+        "enrollment":"EN20CS301463",
+        "Name":"Jain saab",
         "Age":20,
-        "class" : "CS-H"
+        "class" : "CS-H",
+        "location":"somewhere near Rajasthan",
+        "skills":"",
+        "profession":"Student - Medicaps University, Indore",
+        "portfolio":false,
+        "portfoliolink":"",
+        "description":""
     },
     {
         "id":3,
-        "Name":"Jain saab",
-        "Age":20,
-        "class" : "CS-H"
-    },
-    {
-        "id":4,
+        "enrollment":"EN20CS301480",
         "Name":"pathak",
         "Age":21,
-        "class" : "CS-H"
+        "class" : "CS-H",
+        "location":"Rajendra Nagar,Indore",
+        "skills":"SOFTWARE-DEV: C | C++ | JAVA | PYTHON <br>DATABASE: SQL",
+        "profession":"Student - Medicaps University, Indore",
+        "portfolio":false,
+        "portfoliolink":"",
+        "description":""
     }
 ]
