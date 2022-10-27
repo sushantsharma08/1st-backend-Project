@@ -25,8 +25,6 @@ const replaceTemplate = (temp,product)=>{
 }
 
 const port = 8000;
-
-
 const serverip='127.0.0.1';
 const server = http.createServer((req,res)=>{
     const {query,pathname}=url.parse(req.url,true);
