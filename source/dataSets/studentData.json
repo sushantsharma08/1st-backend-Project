@@ -7,7 +7,7 @@
         "class" : "CS-H",
         "location":"Manpur, dist:-maihar, Satna",
         "skills": " WEB-DEV: HTML | CSS | JS | ANGULAR<br>SOFTWARE-DEV: C | C++ | JAVA<br>DATABASE: SQL",
-        "image":"<img alt='...' src='../IMG/sushant.jpg' class='shadow-xl rounded-full h-auto align-middle border-2 absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px'>",
+
         "profession":"Student - Medicaps University, Indore",
         "portfolio":true,
         "portfoliolink":"https://sushantsharmadev.com/",

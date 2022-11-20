@@ -18,7 +18,7 @@ const replaceTemplate = (temp,product)=>{
     output = output.replace(/{%skills%}/g,product.skills)
     output = output.replace(/{%profession%}/g,product.profession)
     output = output.replace(/{%description%}/g,product.description)
-    output = output.replace(/{%image%}/g,product.image)
+    // output = output.replace(/{%image%}/g,product.image)
     output = output.replace(/{%link%}/g,product.portfoliolink)
     if(!product.portfolio)output = output.replace(/{%NOPORTFOLIO%}/g,'noportfolio')
     return output;
